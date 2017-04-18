@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>flip book</title>
+	<style>
+	body{overflow: hidden;background-color: #ddd;}
+	.flipbook{width:1200px;margin:100px  auto;}
+	.page{background-color: #fff;}
+	.page img{width:100%}
+	</style>
+	
+	
+</head>
+<body>
+	<div class="smurf-book-wrap">
+		<div class="flipbook">
+		    <div class="hard"><h1>표지</h1></div>
+		    <div class="hard"></div>
+			<div class="page"><img src="img/pf-by-kim-001.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-002.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-003.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-004.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-005.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-006.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-007.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-008.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-009.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-010.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-011.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-012.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-013.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-014.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-015.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-016.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-017.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-018.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-019.jpg" alt=""></div>
+			<div class="page"><img src="img/pf-by-kim-020.jpg" alt=""></div>
+			<div class="hard"></div>
+		    <div class="hard"></div>
+		</div>
+	</div>
+	
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="src/turn.js"></script>
+	<script>
+	$(function(){
+		$('.flipbook').turn({
+            //autoCenter: true,
+			width:1200,
+            height:450 
+		})
+	})
+	</script>
+</body>
+</html>
